@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/post_need"
+    android:id="@+id/postNeed"
+    />
+    
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/get_need"
+     android:id="@+id/getNeeds"
+    />
+    
+     <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/post_service"
+     android:id="@+id/postService"
+    />
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/get_service"
+     android:id="@+id/getServices"
+    />
+    
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/get_localisation"
+     android:id="@+id/getLocalisation"
+    />
+    
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/account"
+     android:id="@+id/account"
+    />
+    
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/preferences"
+     android:id="@+id/preferences"
+    />
+    
+    
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:weightSum="1">
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:hint="Title" android:id="@+id/needTitle" />
+ 
+    <EditText android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:hint="Description" android:id="@+id/needDescription" />
+    <EditText android:layout_height="wrap_content" android:id="@+id/needPrice" android:layout_width="fill_parent" android:hint="Price">
+        <requestFocus></requestFocus>
+    </EditText>
+    <Button android:text="Button" android:id="@+id/whereami" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+ 
+ 
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:text="Post Need"
+        android:id="@+id/postNeedNow" />
+ 
+</LinearLayout>

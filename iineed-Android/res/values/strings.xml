@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, IineedActivity!</string>
+    <string name="app_name">iineed</string>
+    
+    <string name="post_need">Post need</string>
+    <string name="get_need">Show needs</string>
+    <string name="post_service">Post service</string>
+    <string name="get_service">Show service</string>
+    <string name="get_localisation">Localisation</string>
+    <string name="account">Account</string>
+    <string name="preferences">Preferences</string>
+    
+
+</resources>

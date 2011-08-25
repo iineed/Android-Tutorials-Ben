@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
+	<context-param>
+		<param-name>org.restlet.application</param-name>
+		<param-value>com.tuto.android.gae.server.RestletDispatch</param-value>
+	</context-param>
+
+
+	<servlet>
+		<servlet-name>GaeAndroidRestlet</servlet-name>
+		<servlet-class>com.tuto.android.gae.GaeAndroidRestletServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GaeAndroidRestlet</servlet-name>
+		<url-pattern>/gaeandroidrestlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+      <servlet-name>RestletServlet</servlet-name>
+      <servlet-class>
+         org.restlet.ext.servlet.ServerServlet
+      </servlet-class>
+   </servlet>
+   <servlet-mapping>
+      <servlet-name>RestletServlet</servlet-name>
+      <url-pattern>/rest/*</url-pattern>
+   </servlet-mapping>	
+  
+  
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>
